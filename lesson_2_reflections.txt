@@ -1,0 +1,4 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+  The meta data .git folder is created for storing git info. You need so git can
+  keep track of changes and history in your repository.
