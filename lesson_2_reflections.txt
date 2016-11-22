@@ -2,3 +2,16 @@ What happens when you initialize a repository? Why do you need to do it?
 
   The meta data .git folder is created for storing git info. You need so git can
   keep track of changes and history in your repository.
+
+How is the staging area different from the working directory and the repository?
+  It doesn't contain a file instead it is a list of what will be in the next
+  commit
+What value do you think it offers?
+  Allows you to logically orginize commits.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+  The staging area provides a list of files that are ready for commit. This
+  allow you to pick and chose which files you want to batch for the commit. If
+  you have files that fit the logical change, then you don't have to add them
+  to the staging area. If they're already there, can remove them.
