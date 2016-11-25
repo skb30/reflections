@@ -15,3 +15,17 @@ change?
   allow you to pick and chose which files you want to batch for the commit. If
   you have files that fit the logical change, then you don't have to add them
   to the staging area. If they're already there, can remove them.
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+  a) experimental changes that may affect the working code
+
+  b) Demo Code
+
+  c) Testing code
+
+How do the diagrams help you visualize the branch structure?
+
+  They allow you to visualize the project history with its branches. This
+  is helpful for tracking changes to the project.
