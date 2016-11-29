@@ -29,3 +29,20 @@ How do the diagrams help you visualize the branch structure?
 
   They allow you to visualize the project history with its branches. This
   is helpful for tracking changes to the project.
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+  a) the branch that is receives the merge now has the history of the branch
+  which means the next person to clone the branch will get the complete history
+  of the merge.
+
+  b) it gives the user a visual of when the branch deveated from the original.
+
+ What are the pros and cons of Git’s automatic merging vs. always doing merges
+ manually?
+
+ Pros - git will merge everything that can be merged saving you the hassel of
+ figuring it out. git will display a list of conflicts giving you the
+ responsiblity of fixing them.
+
+ Cons - User intervention on conflicts.
